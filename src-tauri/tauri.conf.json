@@ -11,15 +11,7 @@
   },
   "app": {
     "security": {
-      "csp": null,
-      "capabilities": [{
-        "identifier": "open-shell",
-        "description": "This capability allows the main window to open the shell",
-        "windows": ["main"],
-        "permissions": [
-          "shell:allow-open"
-        ]
-      }]
+      "csp": null
     },
     "withGlobalTauri": true,
     "windows": [
