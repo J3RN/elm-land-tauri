@@ -18,6 +18,6 @@ export const onReady = ({ app }) => {
 }
 
 async function greet(name) {
-  // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
+  // Learn more about Tauri commands at https://tauri.app/develop/calling-rust
   return await invoke("greet", { name });
 }
